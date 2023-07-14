@@ -1,4 +1,4 @@
-from scripts import stoks
+from modules import stoks
 
 ticker = 'TSLA'
 start_date = '2010-01-01'

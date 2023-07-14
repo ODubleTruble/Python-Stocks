@@ -10,7 +10,7 @@ def get_stock_data(ticker: str, start_date: str, end_date: str):
     Parameters:
     - ticker: The ticker of the stock.
     - start_date: The start date of the data to return, in the form xxxx-xx-xx, or year-month-day.
-    - end_date: The end date.
+    - end_date: The end date of the data to return, in the form xxxx-xx-xx, or year-month-day.
     '''
     
     print(f'Beginning download of stock data for {ticker} from {start_date} to {end_date}.')

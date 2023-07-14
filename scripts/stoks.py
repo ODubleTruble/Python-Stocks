@@ -13,7 +13,8 @@ def get_stock_data(ticker: str, start_date: str, end_date: str):
     - end_date: The end date.
     '''
     
-
+    print(f'Beginning download of stock data for {ticker} from {start_date} to {end_date}.')
+    # yfinance automatically includes a download progress bar while downloading data. 
     data = yf.download(ticker, start_date, end_date)
     data.reset_index(inplace=True)
     
